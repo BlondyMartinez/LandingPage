@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+button{
+    padding: 10px 30px;
+    background-color: #3b82f6;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-darkblue{
+    color: #1f2937;
+}
+
+.first{
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.first h1{
+    font-size: 60px;
+}
+.first p{
+    font-size: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+.header-links{
+    display: flex;
+    font-size: 20px;
+    gap: 100px;
+}
+.body{
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+    width: 70%;
+}
+.image-placeholder{
+    background-color: #6d747d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col{
+    width: 50%;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.second h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+.group-info-images{
+    display:flex;
+    gap: 100px;
+}
+.info-image-placeholder{
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3b82f6;
+    border-radius: 10px;
+}
+.info-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.quote-container{
+    background-color: #e5e7eb;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.quote{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.quote h1{
+    font-size: 50px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.quote h2{
+    align-self: end;
+}
+
+.call-container{
+    margin-top: 100px;
+    width: 70%;
+    background-color: #3b82f6;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+}
+.call-container button{
+    border: 2px solid white;
+    height: 60px;
+    align-self: center;
+}
+.text-container{
+    width: 60%;
+}
+
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
